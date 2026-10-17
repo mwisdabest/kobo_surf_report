@@ -27,7 +27,7 @@ jobs:
           python update_surf_dashboard.py
 
       - name: Upload dashboard to Pages
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v2
         with:
           path: ./public
 
